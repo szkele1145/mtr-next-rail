@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "mtrnext.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "mtr-next-rail.refmap.json",
+	
+	"mixins": [],
+	"client": ["RenderTrainsPreviewMixin","RenderTrainsRailInvoker"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
